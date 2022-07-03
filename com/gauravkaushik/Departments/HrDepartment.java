@@ -1,5 +1,7 @@
 package com.gauravkaushik.Departments;
 
+import com.gauravkaushik.SuperClass.SuperDepartment;
+
 public class HrDepartment extends SuperDepartment{
 	 public void departmentName() {
 		 System.out.println("Welcome to HR Department");
@@ -11,6 +13,6 @@ public class HrDepartment extends SuperDepartment{
 		 System.out.println("Complete by EOD"); 
 	 }
 	 public void doactivity() {
-		  System.out.println("Team lunch"); 
+		 System.out.println("Team lunch"); 
 	  }
 }

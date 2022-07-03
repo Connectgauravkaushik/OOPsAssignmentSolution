@@ -1,5 +1,7 @@
 package com.gauravkaushik.Departments;
 
+import com.gauravkaushik.SuperClass.SuperDepartment;
+
 public class TechDepartment extends SuperDepartment{
 	 public void departmentName() {
 		 System.out.println("Welcome to Tech Department");

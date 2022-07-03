@@ -1,9 +1,13 @@
 package com.gauravkaushik.Driver;
 
 import com.gauravkaushik.Departments.*;
+import com.gauravkaushik.SuperClass.SuperDepartment;
 
 public class Main{
 	public static void main(String [] args) {
+		
+		SuperDepartment s = new SuperDepartment();
+		
 		AdminDepartment A = new AdminDepartment();
 		A.departmentName();
 		A.getTdayWork();
